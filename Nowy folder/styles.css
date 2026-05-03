@@ -1,0 +1,47 @@
+body{
+    font-family: calibri;
+    font-size: larger;
+    color:darkblue;
+    text-align: center
+}
+#p1{
+ font-size: larger;   
+}
+a, a:visited, a:hover, a:active {
+    color: #3fc417;
+    text-decoration: underline;
+}
+#box1{
+    border: 3px dashed;
+    background-color:rgb(85, 231, 231, 0.5);
+    width: 600px;
+    height:200px;
+    width: 50%;             
+    margin: 0 auto;
+    overflow-y: auto;
+    text-align: justify
+}
+#box2{
+    margin-left: auto;
+    margin-right: 20%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#box2 td{
+    border: 1px solid #00008B;
+    padding: 8px;
+}
+#gray-row td {
+    background-color: lightgray;
+}
+#p2{
+     background-image: linear-gradient(to right, blue, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+#p3{
+    list-style-type: circle;
+    text-align: left
+}
